@@ -10,20 +10,20 @@ There is an [official library published by Dynatrace][0] but I found it lacking 
 
 ## Dependencies
 
-- `@4lch4/logger`
+- [@4lch4/logger][2]
   - A simple library for logging messages to the console.
-- `axios`
+- [axios][3]
   - A Promise based HTTP client used for interacting with the Dynatrace API.
 
 ## devDependencies
 
-- @types/node
+- [@types/node][4]
   - Required for using standard Node types.
-- pnpm
+- [pnpm][5]
   - Added since pnpm is the preferred package manager.
-- prettier
+- [prettier][6]
   - Added Prettier as an opinionated code formatter.
-- typescript
+- [typescript][7]
   - Added since TypeScript to ensure transpiling with the same version.
 
 ## Dynatrace API
@@ -34,3 +34,9 @@ For official information on the Dynatrace API, refer to the following links:
 
 [0]: https://www.npmjs.com/package/@dynatrace/api-client
 [1]: https://www.dynatrace.com/support/help/dynatrace-api
+[2]: https://www.npmjs.com/package/@4lch4/logger
+[3]: https://www.npmjs.com/package/axios
+[4]: https://www.npmjs.com/package/@types/node
+[5]: https://www.npmjs.com/package/pnpm
+[6]: https://www.npmjs.com/package/prettier
+[7]: https://www.npmjs.com/package/typescript
