@@ -31,8 +31,6 @@ There is an [official library published by Dynatrace][0] but I found it lacking 
 For official information on the Dynatrace API, refer to the following links:
 
 - [Dynatrace API Documentation][1]
-- [Dynatrace API Explorer][2]
 
 [0]: https://www.npmjs.com/package/@dynatrace/api-client
 [1]: https://www.dynatrace.com/support/help/dynatrace-api
-[2]: https://dynatrace.jbhunt.com/e/d8f5d54d-91be-4ee7-acf2-25fa3eb248c3/rest-api-doc/index.jsp
