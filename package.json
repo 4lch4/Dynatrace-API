@@ -30,6 +30,11 @@
     "email": "hey@4lch4.email",
     "url": "https://4lch4.com"
   },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://npm.4lch4.cloud",
+    "tag": "latest"
+  },
   "dependencies": {
     "@4lch4/logger": "^1.7.4",
     "axios": "^0.27.2"
