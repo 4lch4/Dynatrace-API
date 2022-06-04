@@ -1,0 +1,229 @@
+# V2 Environment Endpoints
+
+These are the endpoints/paths of the V2 Environment Endpoints that are available. The ones I intend to implement for the v1 release of the lib will be highlighted later on.
+
+## Endpoints
+
+- [ ] Access Tokens
+  - [ ] Active Gate Tokens
+  - [ ] API Tokens
+  - [ ] Tenant Tokens
+- [ ] ActiveGates
+- [ ] ActiveGates - Auto-Update Configuration
+- [ ] ActiveGates - Auto-Update Jobs
+- [ ] Audit Logs
+- [ ] Davis Security Advisor
+- [ ] Events
+- [ ] Extensions 2.0
+- [ ] Logs
+- [ ] Metrics
+- [ ] Metrics - Units
+- [ ] Monitored Entities
+- [ ] Monitored Entities - Custom Tags
+- [ ] Network Zones
+- [ ] OpenTelemetry Protocol (OTLP) Trace Ingest
+- [ ] Problems
+- [ ] Releases
+- [ ] Security Problems
+- [ ] Service-Level Objectives (SLOs)
+- [ ] Settings
+  - [ ] Objects
+  - [ ] Schemas
+- [ ] Synthetics
+  - [ ] HTTP Monitor Execution
+  - [ ] Locations, nodes, and configuration
+
+## Schemas
+
+- [ ] ActiveGateAutoUpdateConfig
+- [ ] ConstraintViolation
+- [ ] Error
+- [ ] ErrorEnvelope
+- [ ] ActiveGateGlobalAutoUpdateConfig
+- [ ] ConfigurationMetadata
+- [ ] UpdateJob
+- [ ] UpdateJobList
+- [ ] UpdateJobsAll
+- [ ] ActiveGate
+- [ ] ActiveGateConnectedHosts
+- [ ] ActiveGateList
+- [ ] ActiveGateModule
+- [ ] EntitiesList
+- [ ] Entity
+- [ ] EntityIcon
+- [ ] EntityId
+- [ ] METag
+- [ ] ManagementZone
+- [ ] EntityType
+- [ ] EntityTypePropertyDto
+- [ ] FromPosition
+- [ ] ToPosition
+- [ ] EntityTypeList
+- [ ] CustomDeviceCreationResult
+- [ ] CustomDeviceCreation
+- [ ] EventIngestResult
+- [ ] EventIngestResults
+- [ ] EventIngest
+- [ ] EntityStub
+- [ ] Event
+- [ ] EventProperty
+- [ ] EventPropertyDetail
+- [ ] EventPropertyDetails
+- [ ] EventType
+- [ ] EventTypeList
+- [ ] EventList
+- [ ] MetricDefaultAggregation
+- [ ] MetricDescriptor
+- [ ] MetricDimensionCardinality
+- [ ] MetricDimensionDefinition
+- [ ] MetricValueType
+- [ ] MetricDescriptorCollection
+- [ ] AppliedFilter
+- [ ] Filter
+- [ ] Invocation
+- [ ] MetricData
+- [ ] MetricSeries
+- [ ] MetricSeriesCollection
+- [ ] Rollup
+- [ ] EntityShortRepresentation
+- [ ] NetworkZone
+- [ ] NetworkZoneList
+- [ ] NetworkZoneConnectionStatistics
+- [ ] NetworkZoneSettings
+- [ ] DeletedEntityTags
+- [ ] CustomEntityTags
+- [ ] AddedEntityTags
+- [ ] AddEntityTag
+- [ ] AddEntityTags
+- [ ] ActiveGateTokenCreated
+- [ ] ActiveGateTokenCreate
+- [ ] ActiveGateToken
+- [ ] ActiveGateTokenList
+- [ ] ApiTokenCreated
+- [ ] ApiTokenCreate
+- [ ] ApiToken
+- [ ] ApiTokenList
+- [ ] ApiTokenSecret
+- [ ] ApiTokenUpdate
+- [ ] AuditLogEntry
+- [ ] AuditLog
+- [ ] SecurityProblem
+- [ ] DavisSecurityAdvice
+- [ ] DavisSecurityAdviceList
+- [ ] MuteState
+- [ ] RiskAssessmentSnapshot
+- [ ] SecurityProblemEvent
+- [ ] RemediationAssessment
+- [ ] RemediationItem
+- [ ] RemediationItemList
+- [ ] RemediationItemMuteStateDto
+- [ ] RemediationProgressDto
+- [ ] VulnerableComponent
+- [ ] VulnerableFunction
+- [ ] RelatedContainerImage
+- [ ] RelatedEntitiesList
+- [ ] RelatedEntity
+- [ ] RelatedService
+- [ ] RiskAssessment
+- [ ] SecurityProblemDetails
+- [ ] SecurityProblemList
+- [ ] Mute
+- [ ] RemediationItemMuteStateChangeDto
+- [ ] Unmute
+- [ ] ExtensionEnvironmentConfigurationVersion
+- [ ] MonitoringConfigurationResponse
+- [ ] JsonNode
+- [ ] MonitoringConfigurationDto
+- [ ] ComplexConstraint
+- [ ] Constraint
+- [ ] DatasourceDefinition
+- [ ] EnumType
+- [ ] EnumValue
+- [ ] Item
+- [ ] Precondition
+- [ ] PropertyDefinition
+- [ ] SchemaDefinitionRestDto
+- [ ] SchemaType
+- [ ] UiCustomization
+- [ ] UiTableColumnCustomization
+- [ ] UiTableCustomization
+- [ ] AuthorDto
+- [ ] Extension
+- [ ] FeatureSetDetails
+- [ ] MetricDto
+- [ ] ExtensionMonitoringConfiguration
+- [ ] ExtensionMonitoringConfigurationsList
+- [ ] ExtensionEventDto
+- [ ] ExtensionEventsList
+- [ ] ExtensionStatusDto
+- [ ] ExtensionList
+- [ ] MinimalExtension
+- [ ] SchemaFiles
+- [ ] SchemasList
+- [ ] MonitoringConfigurationUpdateDto
+- [ ] Comment
+- [ ] ProblemCloseResult
+- [ ] ProblemCloseRequestDtoImpl
+- [ ] CommentRequestDtoImpl
+- [ ] CommentsList
+- [ ] AlertingProfileStub
+- [ ] ApplicationImpact
+- [ ] AvailabilityEvidence
+- [ ] CustomApplicationImpact
+- [ ] EventEvidence
+- [ ] Evidence
+- [ ] EvidenceDetails
+- [ ] Impact
+- [ ] ImpactAnalysis
+- [ ] LinkedProblem
+- [ ] MaintenanceWindowEvidence
+- [ ] MetricEvidence
+- [ ] MobileImpact
+- [ ] Problem
+- [ ] ServiceImpact
+- [ ] TransactionalEvidence
+- [ ] Problems
+- [ ] Success
+- [ ] SuccessEnvelope
+- [ ] LogMessageJson
+- [ ] LogMessagePlain
+- [ ] LogRecord
+- [ ] AggregatedLog
+- [ ] LogRecordsList
+- [ ] Release
+- [ ] ReleaseInstance
+- [ ] Releases
+- [ ] SoftwareTechs
+- [ ] SettingsObjectResponse
+- [ ] SettingsValue
+- [ ] SettingsObject
+- [ ] ObjectsList
+- [ ] SettingsObjectCreate
+- [ ] SettingsObjectUpdate
+- [ ] SchemaList
+- [ ] SchemaStub
+- [ ] SloCreate
+- [ ] SLO
+- [ ] SLOs
+- [ ] SyntheticConfigDto
+- [ ] LocationExecutionResults
+- [ ] MonitorExecutionResults
+- [ ] MonitorRequestExecutionResult
+- [ ] MonitorRequestHeader
+- [ ] SyntheticLocationIdsDto
+- [ ] PrivateSyntheticLocation
+- [ ] PublicSyntheticLocation
+- [ ] SyntheticLocation
+- [ ] LocationCollectionElement
+- [ ] SyntheticLocations
+- [ ] SyntheticPublicLocationsStatus
+- [ ] SyntheticLocationUpdate
+- [ ] SyntheticPrivateLocationUpdate
+- [ ] SyntheticPublicLocationUpdate
+- [ ] Node
+- [ ] NodeCollectionElement
+- [ ] Nodes
+- [ ] TenantToken
+- [ ] TenantTokenConfig
+- [ ] Unit
+- [ ] UnitList
